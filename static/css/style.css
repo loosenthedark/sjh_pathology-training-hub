@@ -1,0 +1,80 @@
+/* CSS style resets adapted from https://www.udemy.com/course/advanced-css-and-sass/learn/lecture/8274400#overview & https://www.linkedin.com/learning/css-advanced-layouts-with-grid */
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: Poppins, sans-serif;
+  font-weight: 400;
+  font-size: 1.0625rem;
+  line-height: 1.5;
+  color: hsl(213, 24%, 15%);
+  background-color: hsl(215, 37%, 90%);
+  width: 100%;
+}
+
+body > * {
+  margin: 0 auto;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5 {
+  font-family: Lora, serif;
+  clear: both;
+}
+
+ul {
+  list-style-type: none;
+}
+
+b,
+strong {
+  font-weight: bold;
+}
+
+dfn,
+cite,
+em,
+i {
+  font-style: italic;
+}
+
+blockquote {
+  margin: 0 1.66rem;
+  line-height: 1.8;
+  margin-bottom: 0.75rem;
+  font-size: 1rem;
+  font-style: italic;
+}
+
+address {
+  margin: 0 0 1.5em;
+}
+
+abbr,
+acronym {
+  border-bottom: 0.0625rem dotted hsl(0, 0%, 40%);
+  cursor: help;
+}
+
+mark,
+ins {
+  background: hsl(54, 100%, 88%);
+  text-decoration: none;
+}
+
+figure {
+  margin: 0;
+}
+
+/* Global styles */
