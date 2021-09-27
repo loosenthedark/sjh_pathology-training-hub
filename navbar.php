@@ -54,15 +54,20 @@
         </div>
     </a>
     <div class="navbar-search">
-        <button class="dropdown-toggle" type="button" id="navbar-search__toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-            <h4 class="navbar-search__title">How can we help you?</h4>
-            <p>Get directions, Find a consultant, Pay a bill...</p>
-            <div class="search-icon-box flex-centre">
-                <i class="fas fa-search"></i>
+        <button class="dropdown-toggle" type="button" id="dropdown-toggler" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+            <h4 class="navbar-search-title">How can we help you?</h4>
+            <p class="navbar-search-para">Get directions, Find a consultant, Pay a bill...</p>
+            <div class="toggle-icons">
+                <span class="search-icon-box flex-centre">
+                    <i class="dropdown-toggle-icon fas fa-search"></i>
+                </span>
+                <span class="times-icon-box flex-centre">
+                    <i class="dropdown-toggle-icon fas fa-times"></i>
+                </span>
             </div>
         </button>
-        <div class="dropdown-menu" aria-labelledby="navbar-search__toggle">
-            <ul>
+        <div class="collapse dropdown-menu" aria-labelledby="navbar-search__toggle">
+            <ul class="dropdown-nav">
                 <li><a class="dropdown-item " href="/aboutus/gettingtothehospital/" target=""><i class="fas fa-chevron-right"></i> Get directions</a></li>
                 <li><a class="dropdown-item " href="/patients/" target=""><i class="fas fa-chevron-right"></i> Appointment information</a></li>
                 <li><a class="dropdown-item " href="/consultants/" target=""><i class="fas fa-chevron-right"></i> Find a consultant</a></li>
