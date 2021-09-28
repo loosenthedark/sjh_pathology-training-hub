@@ -13,6 +13,7 @@ Variables
     --clr-primary-white: hsl(0, 0%, 100%);
     --clr-primary-black: hsl(0, 0%, 0%);
     --clr-primary-blue-dark: hsl(218, 50%, 21%);
+    --clr-primary-gold: hsl(47, 100%, 61%);
     /* Letter spacing */
     --ls-spaced-main: letter-spacing: 0.01rem;
     /* Shadow */
@@ -72,12 +73,17 @@ h3 {
 
 h1 {
     font-size: 2.5rem;
-    margin-bottom: 1.5rem;
+    margin: 1.25rem 0 0;
+    padding: .3125rem .625rem 1.25rem;
+    font-size: 3.125rem;
+    color: var(--clr-primary-blue-dark);
+    font-weight: 700;
+    line-height: 1.2;
+    position: relative;
 }
 
 h2 {
     font-size: 2.4rem;
-    margin-top: 15vw;
     margin-bottom: 0.75rem;
     text-align: center;
     line-height: 1.1;
@@ -104,10 +110,17 @@ h3 {
 h4 {
     font-size: 1.2rem;
     font-weight: 400;
-    color: hsl(47, 100%, 61%);
+    color: var(--clr-primary-gold);
     letter-spacing: var(--ls-spaced-main);
     margin-bottom: 0.3rem;
     opacity: .85;
+}
+
+h5 {
+    color: var(--clr-primary-blue-dark);
+    font-weight: 600;
+    font-size: 1.0625rem;
+    line-height: 1.35;
 }
 
 h6 {
@@ -138,8 +151,13 @@ button {
 
 main {
     margin-top: 0;
-    min-height: 100vh;
     width: 100%;
+    display: grid;
+    grid-template-columns: auto 24rem;
+}
+
+aside {
+    background-color: #005960;
 }
 
 
@@ -419,4 +437,185 @@ form {
     font-size: 1.125rem;
     top: .85rem;
     opacity: .6;
+}
+
+
+/*
+=============== 
+Header
+===============
+*/
+
+.banner {
+    width: 100%;
+    height: 18rem;
+    background: url(../images/sjh-pathology-banner.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position-x: right;
+}
+
+h1::after {
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    height: .125rem;
+    content: "";
+    background-color: var(--clr-primary-gold);
+    margin-left: .625rem;
+    margin-right: .625rem;
+}
+
+.header-sub {
+    padding: .75rem .625rem .8125rem;
+    display: flex;
+}
+
+.header-sub>ol {
+    width: calc(100% - 20rem);
+    min-width: 56rem;
+}
+
+.header-sub>.container {
+    width: 20rem;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+.nav-breadcrumbs {
+    padding-left: 0;
+}
+
+.breadcrumb a::before {
+    display: inline-block;
+    padding-right: .5rem;
+    content: "/";
+}
+
+.breadcrumb:first-of-type a::before {
+    display: none;
+}
+
+.nav-breadcrumbs>li>a {
+    padding-top: 0;
+    padding-bottom: 0;
+    padding-right: 0;
+    padding-left: .5rem;
+    font-size: 1rem;
+    color: hsl(0, 0%, 51%);
+    font-weight: 400;
+}
+
+.breadcrumb:last-of-type a {
+    font-weight: 700;
+}
+
+.nav-social,
+.nav-print {
+    padding-left: 0;
+}
+
+.nav-social>li,
+.nav-print>li {
+    padding-left: .5rem;
+}
+
+.nav-social>li>a,
+.nav-print>li>a {
+    padding: .125rem;
+    width: 2.5rem;
+    height: 2.5rem;
+    display: flex;
+    border: .125rem solid hsl(223, 30%, 95%);
+    border-radius: 50%;
+    font-size: 1rem;
+}
+
+.nav-social>li:first-of-type>a {
+    color: hsl(212, 65%, 43%);
+}
+
+.nav-social>li:nth-of-type(2)>a {
+    color: hsl(213, 90%, 52%);
+}
+
+.nav-social>li:nth-of-type(3)>a {
+    color: hsl(204, 79%, 47%);
+}
+
+.nav-social+h5 {
+    padding-left: 1rem;
+}
+
+.nav-print>li:first-of-type>a {
+    color: var(--clr-primary-blue-dark);
+}
+
+
+/*
+=============== 
+Paths
+===============
+*/
+
+.tabset>input[type="radio"] {
+    position: absolute;
+    left: -200vw;
+}
+
+.tabset .tab-panel {
+    display: none;
+}
+
+.tabset>input:first-child:checked~.tab-panels>.tab-panel:first-child,
+.tabset>input:nth-child(3):checked~.tab-panels>.tab-panel:nth-child(2),
+.tabset>input:nth-child(5):checked~.tab-panels>.tab-panel:nth-child(3),
+.tabset>input:nth-child(7):checked~.tab-panels>.tab-panel:nth-child(4),
+.tabset>input:nth-child(9):checked~.tab-panels>.tab-panel:nth-child(5),
+.tabset>input:nth-child(11):checked~.tab-panels>.tab-panel:nth-child(6) {
+    display: block;
+}
+
+.tabset>label {
+    position: relative;
+    display: inline-block;
+    padding: 15px 15px 25px;
+    border: 1px solid transparent;
+    border-bottom: 0;
+    cursor: pointer;
+    font-weight: 600;
+}
+
+.tabset>label::after {
+    content: "";
+    position: absolute;
+    left: 15px;
+    bottom: 10px;
+    width: 22px;
+    height: 4px;
+    background: #8d8d8d;
+}
+
+.tabset>label:hover,
+.tabset>input:focus+label {
+    color: #06c;
+}
+
+.tabset>label:hover::after,
+.tabset>input:focus+label::after,
+.tabset>input:checked+label::after {
+    background: #06c;
+}
+
+.tabset>input:checked+label {
+    border-color: #ccc;
+    border-bottom: 1px solid #fff;
+    margin-bottom: -1px;
+}
+
+.tab-panel {
+    padding: 30px 0;
+    border-top: 1px solid #ccc;
 }
