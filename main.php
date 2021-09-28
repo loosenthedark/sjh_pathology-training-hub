@@ -1,4 +1,5 @@
 <main>
-  <?php include("paths.php") ?>
+  <?php include("carousel.php") ?>
   <?php include("twitter.php") ?>
+  <?php include("paths.php") ?>
 </main>

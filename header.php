@@ -1,6 +1,11 @@
 <header>
     <nav class="c-navbar navbar navbar-expand-lg fixed-top">
-        <ul class="nav">
+        <a class="navbar-brand" href="/">
+            <div class="navbar-brand__main">
+                <img src="static/images/logos/site-logo-tcd.png" alt="SJH logo" class="navbar-brand-logo">
+            </div>
+        </a>
+        <ul class="nav nav-primary">
             <li><a href="#">Home</a></li>
             <li>
                 <a href="#">About</a>
@@ -51,7 +56,7 @@
         </ul>
         <a class="navbar-brand" href="/">
             <div class="navbar-brand__main">
-                <img src="static/images/logos/site-logo.svg" alt="SJH logo" class="navbar-brand-logo">
+                <img src="static/images/logos/site-logo-sjh.svg" alt="SJH logo" class="navbar-brand-logo">
             </div>
         </a>
         <div class="navbar-search">

@@ -12,40 +12,37 @@
   Also worth reading:
   http://simplyaccessible.com/article/danger-aria-tabs/
 -->
-<section class="tabset">
-    <!-- Tab 1 -->
-    <input type="radio" name="tabset" id="tab1" aria-controls="marzen" checked>
-    <label for="tab1">Märzen</label>
-    <!-- Tab 2 -->
-    <input type="radio" name="tabset" id="tab2" aria-controls="rauchbier">
-    <label for="tab2">Rauchbier</label>
-    <!-- Tab 3 -->
-    <input type="radio" name="tabset" id="tab3" aria-controls="dunkles">
-    <label for="tab3">Dunkles Bock</label>
-
-    <ul class="tab-panels">
-        <li id="marzen" class="tab-panel">
-            <h2>6A. Märzen</h2>
-            <p><strong>Overall Impression:</strong> An elegant, malty German amber lager with a clean, rich, toasty and bready malt flavor, restrained bitterness, and a dry finish that encourages another drink. The overall malt impression is soft, elegant,
-                and complex, with a rich aftertaste that is never cloying or heavy.
-            </p>
-            <p><strong>History:</strong> As the name suggests, brewed as a stronger “March beer” in March and lagered in cold caves over the summer. Modern versions trace back to the lager developed by Spaten in 1841, contemporaneous to the development of
-                Vienna lager. However, the Märzen name is much older than 1841; the early ones were dark brown, and in Austria the name implied a strength band (14 °P) rather than a style. The German amber lager version (in the Viennese style of the time)
-                was first served at Oktoberfest in 1872, a tradition that lasted until 1990 when the golden Festbier was adopted as the standard festival beer.</p>
-        </li>
-        <li id="rauchbier" class="tab-panel">
-            <h2>6B. Rauchbier</h2>
-            <p><strong>Overall Impression:</strong> An elegant, malty German amber lager with a balanced, complementary beechwood smoke character. Toasty-rich malt in aroma and flavor, restrained bitterness, low to high smoke flavor, clean fermentation profile,
-                and an attenuated finish are characteristic.</p>
-            <p><strong>History:</strong> A historical specialty of the city of Bamberg, in the Franconian region of Bavaria in Germany. Beechwood-smoked malt is used to make a Märzen-style amber lager. The smoke character of the malt varies by maltster;
-                some breweries produce their own smoked malt (rauchmalz).</p>
-        </li>
-        <li id="dunkles" class="tab-panel">
-            <h2>6C. Dunkles Bock</h2>
-            <p><strong>Overall Impression:</strong> A dark, strong, malty German lager beer that emphasizes the malty-rich and somewhat toasty qualities of continental malts without being sweet in the finish.</p>
-            <p><strong>History:</strong> Originated in the Northern German city of Einbeck, which was a brewing center and popular exporter in the days of the Hanseatic League (14th to 17th century). Recreated in Munich starting in the 17th century. The
-                name “bock” is based on a corruption of the name “Einbeck” in the Bavarian dialect, and was thus only used after the beer came to Munich. “Bock” also means “Ram” in German, and is often used in logos and advertisements.</p>
-        </li>
-</ul>
-
-</section>
+<div class="container-tabset">
+    <h2>Learning Resources</h2>
+    <section class="tabset">
+        <!-- Tab 1 -->
+        <input type="radio" name="tabset" id="tab1" aria-controls="marzen" checked>
+        <label for="tab1">
+      <h4>ExpertPath<span>&trade;</span></h4>
+    </label>
+        <!-- Tab 2 -->
+        <input type="radio" name="tabset" id="tab2" aria-controls="rauchbier">
+        <label for="tab2">
+      <h4>Pathology Outlines</h4>
+    </label>
+        <!-- Tab 3 -->
+        <input type="radio" name="tabset" id="tab3" aria-controls="dunkles">
+        <label for="tab3">
+      <h4>RC of Pathologists</h4>
+    </label>
+        <ul class="tab-panels">
+            <li id="marzen" class="tab-panel">
+                <div class="img-wrapper"><img src="static/images/logos/logo-expertpath.png" alt="ExpertPath logo" class='logo-expertpath'><img src="static/images/logos/logo-elsevier.jpeg" alt="Elsevier logo"></div>
+                <div class="text-wrapper"><p><strong>Elsevier ExpertPath</strong> is a diagnostic decision support system for pathologists. ExpertPath gives you instant access to the collective clinical experience and knowledge of renowned sub-specialists in every field of anatomic and clinical pathology.</p><p>Each topic was written and each image was selected by the same author team that brought the world the best-selling <cite>Diagnostic Pathology</cite> collection. The team of specialists include leaders at prestigious institutions around the world.</p></div>
+            </li>
+            <li id="rauchbier" class="tab-panel">
+                <img src="static/images/logos/logo-path-outlines.jpeg" alt="Pathology Outlines logo">
+                <div class="text-wrapper"><p><strong>PathologyOutlines.com</strong> is a regularly updated, comprehensive online textbook of surgical and clinical pathology, with extensive links to images (gross, microscopic, clinical and others), virtual slides and references.</p><p>The site's main purpose is to provide useful professional information to practicing pathologists and laboratory personnel in 15 seconds or less.</p><p>Chapters include clinical and surgical pathology topics, as well as separate listings for CD markers, immunohistochemical and other stains.</p></div>
+            </li>
+            <li id="dunkles" class="tab-panel">
+                <img src="static/images/logos/logo-rc-path.jpeg" alt="RC of Pathologists logo">
+                <div class="text-wrapper"><p>The <strong>Royal College of Pathologists</strong> promotes excellence in the practice of pathology. Members work across 17 specialities in healthcare, universities & industry.</p><p>The College's Datasets for Histopathological Reporting on Cancers have been written to help pathologists work towards a consistent approach for the reporting of the more common cancers and to define the range of acceptable practice in handling pathology specimens.</p></div>
+            </li>
+        </ul>
+    </section>
+</div>
