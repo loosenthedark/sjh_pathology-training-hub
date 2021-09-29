@@ -157,14 +157,19 @@ main {
     padding-top: .625rem;
     width: 100%;
     display: grid;
+    grid-auto-flow: dense;
     grid-template-columns: auto 27rem;
-    grid-template-rows: 35rem auto auto;
+    grid-auto-rows: 35rem minmax(35rem, auto) auto;
+    /* gap: 1rem; */
+    grid-auto-flow: dense;
 }
 
 aside {
     /* background-color: #005960; */
     grid-row: 1 / 4;
     grid-column: 2 / 3;
+    padding: 0 .625rem;
+    background: var(--clr-primary-blue-pale);
 }
 
 
