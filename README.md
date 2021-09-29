@@ -14,6 +14,10 @@
 
 ['A CSS-only Carousel Slider'](https://codepen.io/Schepp/pen/WNbQByE) ([Christian Schaefer on CodePen](https://codepen.io/Schepp) - h/t [CSS-Tricks](https://css-tricks.com/css-only-carousel/))
 
+['Auto-placement in CSS Grid Layout'](https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_Grid_Layout/Auto-placement_in_CSS_Grid_Layout) (MDN Web Docs)
+
+['Responsive Vertical Tabs For Bootstrap 4'](https://github.com/tromgy/bootstrap-4-vertical-tabs) - h/t [CSS Script](https://www.cssscript.com/vertical-tabs-bootstrap/))
+
 https://www.pathologyoutlines.com/dw/mystery201601.jpg
 
 https://www.adelaidereview.com.au/app/uploads/2020/06/pathology-shutterstock_761873638-2048x1152.jpg

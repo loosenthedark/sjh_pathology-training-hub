@@ -21,41 +21,33 @@
                             <ul>
                                 <li>
                                     <a href="">
-                                        <div class="img-wrapper"><img src="static/images/logos/logo-dpp.png" alt="Elsevier logo"></div>
+                                        <div class="img-wrapper"><img src="static/images/logos/logo-dpp.png" alt="Digital Pathology Place logo"></div>
                                         <div class="text-wrapper">
-                                            <p>Aleksandra Zuraw discusses digital pathology from the basic concepts to the newest developments, including image analysis and artificial intelligence. She reviews scientific literature and together with her
-                                                guests discusses the current industry and research digital pathology trends
-                                            </p>
+                                            <p>Aleksandra Zuraw discusses digital pathology, from the basic concepts to the newest developments, including image analysis and artificial intelligence. She also reviews scientific literature and - together with her guests - explores the latest industry and research digital pathology trends.</p>
                                         </div>
                                     </a>
                                 </li>
                                 <li>
                                     <a href="">
-                                        <div class="img-wrapper"><img src="static/images/logos/logo-dpp.png" alt="Elsevier logo"></div>
+                                        <div class="img-wrapper"><img src="static/images/logos/logo-mpc.png" alt="ModPath Chat logo"></div>
                                         <div class="text-wrapper">
-                                            <p>Aleksandra Zuraw discusses digital pathology from the basic concepts to the newest developments, including image analysis and artificial intelligence. She reviews scientific literature and together with her
-                                                guests discusses the current industry and research digital pathology trends
-                                            </p>
+                                            <p>The official podcast of <cite>Modern Pathology</cite>, the journal of the US and Canadian Academy of Pathology (USCAP), ModPath Chat features interviews with authors, opinion leaders and experts on the latest science, technology, and developments in the field of pathology. The monthly series is hosted by Dr. George J. Netto, the Editor-in-Chief of <cite>Modern Pathology</cite> and the Chair of Pathology at the University of Alabama in Birmingham.</p>
                                         </div>
                                     </a>
                                 </li>
                                 <li>
                                     <a href="">
-                                        <div class="img-wrapper"><img src="static/images/logos/logo-dpp.png" alt="Elsevier logo"></div>
+                                        <div class="img-wrapper"><img src="static/images/logos/logo-cap.jpg" alt="CAP logo"></div>
                                         <div class="text-wrapper">
-                                            <p>Aleksandra Zuraw discusses digital pathology from the basic concepts to the newest developments, including image analysis and artificial intelligence. She reviews scientific literature and together with her
-                                                guests discusses the current industry and research digital pathology trends
-                                            </p>
+                                            <p>The College of American Pathologists' CAPcasts feature interviews with leading pathologists on current issues impacting pathology and laboratory medicine. CAP is the leading organization of board-certified pathologists, serving patients, pathologists and the public by fostering and advocating excellence in the practice of pathology and laboratory medicine worldwide.</p>
                                         </div>
                                     </a>
                                 </li>
                                 <li>
                                     <a href="">
-                                        <div class="img-wrapper"><img src="static/images/logos/logo-dpp.png" alt="Elsevier logo"></div>
+                                        <div class="img-wrapper"><img src="static/images/logos/logo-dl.png" alt="Deeper Levels logo"></div>
                                         <div class="text-wrapper">
-                                            <p>Aleksandra Zuraw discusses digital pathology from the basic concepts to the newest developments, including image analysis and artificial intelligence. She reviews scientific literature and together with her
-                                                guests discusses the current industry and research digital pathology trends
-                                            </p>
+                                            <p>A podcast about pathology, medicine, and science hosted by Natalie Banet, MD, a practicing Gynecologic and Cytopathologist and Assistant Professor of Pathology and Laboratory Medicine at the Warren Alpert Medical School of Brown University.</p>
                                         </div>
                                     </a>
                                 </li>

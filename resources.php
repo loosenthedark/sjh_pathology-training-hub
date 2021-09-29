@@ -13,7 +13,7 @@
   http://simplyaccessible.com/article/danger-aria-tabs/
 -->
 <div class="container-tabset">
-    <h2>Learning Resources</h2>
+    <h2>Learning Supports</h2>
     <section class="tabset">
         <!-- Tab 1 -->
         <input type="radio" name="tabset" id="tab1" aria-controls="marzen" checked>
