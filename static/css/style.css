@@ -158,7 +158,7 @@ main {
     width: 100%;
     display: grid;
     grid-template-columns: auto 27rem;
-    grid-template-rows: 37rem auto auto;
+    grid-template-rows: 35rem auto auto;
 }
 
 aside {
@@ -697,6 +697,7 @@ Carousel
     scroll-behavior: smooth;
     scroll-snap-type: x mandatory;
     padding-bottom: 3rem;
+    max-width: 47rem;
 }
 
 .carousel__slide {
@@ -739,7 +740,7 @@ Carousel
 .carousel__slide:before {
     content: "";
     position: absolute;
-    top: 66.04%;
+    top: 66.3%;
     left: 50%;
     transform: translate3d(-50%, -40%, 4.375rem);
     color: var(--clr-primary-white);
@@ -787,6 +788,7 @@ Carousel
     bottom: 0;
     left: 0;
     text-align: center;
+    max-width: 47rem;
 }
 
 .carousel__navigation-list,
@@ -823,12 +825,12 @@ Carousel
 
 .carousel::before,
 .carousel__prev {
-    left: 1rem;
+    left: 1%;
 }
 
 .carousel::after,
 .carousel__next {
-    right: 1rem;
+    left: calc(43rem - 1%);
 }
 
 .carousel::before,
@@ -910,7 +912,7 @@ Resources
     border: .0625rem solid transparent;
     border-bottom: 0;
     cursor: pointer;
-    width: 33.065%;
+    width: 33.05%;
     text-align: center;
     background-color: var(--clr-primary-blue-dark);
     top: 1rem;
@@ -921,7 +923,7 @@ Resources
 }
 
 .tabset>label:nth-of-type(3) {
-    right: -.025rem;
+    right: -.045%;
     position: absolute;
 }
 
@@ -1006,7 +1008,7 @@ Lectures
 
 .lectures h5 {
     color: var(--clr-primary-white);
-    font-size: 1.125rem;
+    font-size: 1.25rem;
 }
 
 .lectures input {
@@ -1037,22 +1039,28 @@ Lectures
 
 .tab-content {
     max-height: 0;
-    padding: 0 .875rem;
+    padding: 0 1.25rem;
     color: var(--clr-primary-blue-dark);
     background: var(--clr-primary-white);
     transition: all .35s;
+}
+
+.tab-content>p {
+    margin: 0 0 1.25rem;
+    font-size: 1.125rem;
+    color: var(--clr-primary-black);
 }
 
 .tab-label {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: .625rem .875rem .85rem;
+    padding: .75rem 1.5rem 1rem 1.25rem;
     background: var(--clr-primary-blue-dark);
     font-weight: 700;
     cursor: pointer;
     line-height: 1;
-    margin-bottom: .05rem;
+    margin-bottom: .1rem;
 }
 
 .tab-label:hover {
@@ -1079,5 +1087,5 @@ input:checked+.tab-label::after {
 
 input:checked~.tab-content {
     max-height: 100vh;
-    padding: .875rem;
+    padding: 1.875rem 1.25rem 1rem;
 }
