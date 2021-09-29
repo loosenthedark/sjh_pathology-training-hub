@@ -17,3 +17,5 @@
 https://www.pathologyoutlines.com/dw/mystery201601.jpg
 
 https://www.adelaidereview.com.au/app/uploads/2020/06/pathology-shutterstock_761873638-2048x1152.jpg
+
+['Pure CSS Accordion'](https://codepen.io/raubaca/pen/PZzpVe) ([Raúl Barrera on CodePen](https://codepen.io/raubaca))

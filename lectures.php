@@ -23,8 +23,8 @@
                         </div>
                     </div>
                     <div class="tab">
-                        <input type="checkbox" id="chck2">
-                        <label class="tab-label" for="chck2">
+                        <input type="checkbox" id="chck3">
+                        <label class="tab-label" for="chck3">
                             <h5>ISGyP LiVE Educational Series</h5>
                         </label>
                         <div class="tab-content">
