@@ -1,7 +1,8 @@
 <main>
   <?php include("carousel.php") ?>
   <?php include("twitter.php") ?>
-  <?php include("media.php") ?>
   <?php include("resources.php") ?>
+  <?php include("media.php") ?>
+  <?php include("slides.php") ?>
   <?php include("lectures.php") ?>
 </main>

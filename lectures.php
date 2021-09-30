@@ -10,6 +10,7 @@
                             <h5>Virtual Pathology at the University of Leeds</h5>
                         </label>
                         <div class="tab-content">
+                            <img src="static/images/logos/logo-leeds.png" alt="Leeds University Pathology logo">
                             <p>The Leeds University Pathology E-learning portal has an introductory lecture series covering a range of pathology topics.</p>
                         </div>
                     </div>
@@ -19,6 +20,7 @@
                             <h5>Duke University Medical School - Histology</h5>
                         </label>
                         <div class="tab-content">
+                            <img src="static/images/logos/logo-duke.png" alt="Duke Pathology logo">
                             <p>The Duke University Medical School website gives comprehensive coverage by topic, broken down into a 19-week course and by case, complete with diagnosis.</p>
                         </div>
                     </div>
@@ -28,6 +30,7 @@
                             <h5>ISGyP LiVE Educational Series</h5>
                         </label>
                         <div class="tab-content">
+                            <img src="static/images/logos/logo-isgyp.jpeg" alt="ISGyP logo">
                             <p>The International Society of Gynecological Pathologists hosts weekly live events including slide sessions, lecture webinars, podcasts and journal clubs.</p>
                         </div>
                     </div>

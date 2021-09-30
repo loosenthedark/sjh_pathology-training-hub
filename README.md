@@ -8,6 +8,10 @@
 
 ['Close up photo of hand in blue glove handing histological liver tissue sample'](https://www.123rf.com/photo_98440053_close-up-photo-of-hand-in-blue-glove-handing-histological-liver-tissue-sample.html?vti=nywuvmaul30v8odx0h-1-7) (Copyright: [vshivkova on 123RF](https://www.123rf.com/profile_vshivkova))
 
+['Concept of Education anatomy and Human lung tissue under microscope, The lungs is organs of the respiratory system in humans.'](https://www.123rf.com/photo_119354162_concept-of-education-anatomy-and-human-lung-tissue-under-microscope-the-lungs-is-organs-of-the-respi.html?vti=o5qocd2qmpwfpukpxf-1-29) (Copyright: [sinhyu on 123RF](https://www.123rf.com/profile_sinhyu))
+
+['Close-up image of laboratory scientist is working with microscope. Doing lab investigation.'](https://www.123rf.com/photo_92165880_close-up-image-of-laboratory-scientist-is-working-with-microscope-doing-lab-investigation-.html?vti=o5qocd2qmpwfpukpxf-1-5) (Copyright: [4pmproduction on 123RF](https://www.123rf.com/profile_4pmproduction))
+
 ['Pure CSS Tabs'](https://codepen.io/markcaron/pen/MvGRYV) ([Mark Caron on CodePen](https://codepen.io/markcaron))
 
 ['Featured Tabs'](https://codepen.io/RGonyeau/pen/Mvrzxx) ([Richard Gonyeau on CodePen](https://codepen.io/RGonyeau))
