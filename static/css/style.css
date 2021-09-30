@@ -1324,18 +1324,17 @@ Lectures
 
 .lectures .tab-content>img {
     width: 10rem;
+    margin-right: 2rem;
 }
 
-.lectures .tab:nth-of-type(2)>.tab-content>img {
-    width: 15rem;
-}
-
-.lectures .tab:nth-of-type(3)>.tab-content>img {
-    width: 8rem;
+.lectures .tab:nth-of-type(3) .tab-content>img {
+    width: 8.5rem;
+    margin-right: 2.75rem;
+    margin-left: .75rem;
 }
 
 .lectures .tab-content>p {
-    margin: 0 0 1.25rem;
+    margin: 0;
     font-size: 1.125rem;
     color: var(--clr-primary-black);
 }
@@ -1376,5 +1375,9 @@ input:checked+.tab-label::after {
 
 input:checked~.tab-content {
     max-height: 100vh;
-    padding: 1.875rem 1.25rem 1rem;
+    min-height: 12rem;
+    padding: 1.75rem 3rem 1.75rem 2.25rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
