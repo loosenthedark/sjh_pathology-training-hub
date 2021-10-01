@@ -1,60 +1,60 @@
 <header>
     <nav class="c-navbar navbar navbar-expand-lg fixed-top">
-        <a class="navbar-brand" href="/">
+        <a class="navbar-brand" target="_blank" href="https://www.tcd.ie/medicine/histopathology/">
             <div class="navbar-brand__main">
                 <img src="static/images/logos/site-logo-tcd.png" alt="SJH logo" class="navbar-brand-logo">
             </div>
         </a>
         <ul class="nav nav-primary">
-            <li><a href="#">Home</a></li>
+            <li><a href="https://www.stjames.ie/">Home</a></li>
             <li>
-                <a href="#">About</a>
+                <a href="https://www.stjames.ie/aboutus/">About</a>
                 <ul>
-                    <li><a href="#">About us</a></li>
-                    <li><a href="#">Our history</a></li>
-                    <li><a href="#">Executive Management Group</a></li>
-                    <li><a href="#">Hospital board</a></li>
-                    <li><a href="#">Latest news</a></li>
+                    <li><a href="https://www.stjames.ie/aboutus/">About us</a></li>
+                    <li><a href="https://www.stjames.ie/aboutus/history/">Our history</a></li>
+                    <li><a href="https://www.stjames.ie/aboutus/executivemanagementgroup/">Executive Management Group</a></li>
+                    <li><a href="https://www.stjames.ie/aboutus/hospitalboard/">Hospital board</a></li>
+                    <li><a href="https://www.stjames.ie/aboutus/news/">Latest news</a></li>
                 </ul>
             </li>
             <li>
-                <a href="#">Services</a>
+                <a href="https://www.stjames.ie/services/">Services</a>
                 <ul>
-                    <li><a href="#">Find a service</a></li>
-                    <li><a href="#">Find a ward</a></li>
-                    <li><a href="#">Research</a></li>
-                    <li><a href="#">Cancer Institute</a></li>
-                    <li><a href="#">MISA</a></li>
+                    <li><a href="https://www.stjames.ie/services/">Find a service</a></li>
+                    <li><a href="https://www.stjames.ie/wards/">Find a ward</a></li>
+                    <li><a href="https://www.stjames.ie/research/">Research</a></li>
+                    <li><a href="https://www.stjames.ie/cancer/">Cancer Institute</a></li>
+                    <li><a href="https://www.stjames.ie/misa/">MISA</a></li>
                 </ul>
             </li>
             <li>
-                <a href="#">Patients</a>
+                <a href="https://www.stjames.ie/patients/">Patients</a>
                 <ul>
-                    <li><a href="#">Appointment information</a></li>
-                    <li><a href="#">Visiting</a></li>
-                    <li><a href="#">Getting to the hospital</a></li>
-                    <li><a href="#">Pay your bill</a></li>
-                    <li><a href="#">Blood testing</a></li>
+                    <li><a href="https://www.stjames.ie/patients/">Appointment information</a></li>
+                    <li><a href="https://www.stjames.ie/patients/visiting/">Visiting</a></li>
+                    <li><a href="https://www.stjames.ie/aboutus/gettingtothehospital/">Getting to the hospital</a></li>
+                    <li><a href="https://www.stjames.ie/patients/payyourbill/">Pay your bill</a></li>
+                    <li><a href="https://www.stjames.ie/patients/bloodtesting/">Blood testing</a></li>
                 </ul>
             </li>
             <li>
-                <a href="#">Healthcare Professionals</a>
+                <a href="https://www.stjames.ie/healthcareprofessionals/">Healthcare Professionals</a>
                 <ul>
-                    <li><a href="#">Newsletters</a></li>
-                    <li><a href="#">LabMed Services</a></li>
-                    <li><a href="#">LabMed UserGuide</a></li>
-                    <li><a href="#">Find a consultant</a></li>
+                    <li><a href="https://www.stjames.ie/healthcareprofessionals/newslettersnews/">Newsletters</a></li>
+                    <li><a href="https://www.stjames.ie/services/laboratorymedicinelabmed/">LabMed Services</a></li>
+                    <li><a href="http://search.stjames.ie/Labmed/">LabMed UserGuide</a></li>
+                    <li><a href="https://www.stjames.ie/consultants/">Find a consultant</a></li>
                 </ul>
             </li>
             <li>
-                <a href="#">Work With Us</a>
+                <a href="https://www.stjames.ie/careers/">Work With Us</a>
                 <ul>
-                    <li><a href="#">Careers</a></li>
-                    <li><a href="#">Research</a></li>
+                    <li><a href="https://www.stjames.ie/careers/">Careers</a></li>
+                    <li><a href="https://www.stjames.ie/research/">Research</a></li>
                 </ul>
             </li>
         </ul>
-        <a class="navbar-brand" href="/">
+        <a class="navbar-brand" href="https://www.stjames.ie/">
             <div class="navbar-brand__main">
                 <img src="static/images/logos/site-logo-sjh.svg" alt="SJH logo" class="navbar-brand-logo">
             </div>
@@ -74,21 +74,21 @@
             </button>
             <div class="collapse dropdown-menu" aria-labelledby="navbar-search__toggle">
                 <ul class="dropdown-nav">
-                    <li><a class="dropdown-item " href="/aboutus/gettingtothehospital/" target=""><i
+                    <li><a class="dropdown-item " href="https://www.stjames.ie/aboutus/gettingtothehospital/" target=""><i
                                 class="fas fa-chevron-right"></i> Get directions</a></li>
-                    <li><a class="dropdown-item " href="/patients/" target=""><i class="fas fa-chevron-right"></i>
+                    <li><a class="dropdown-item " href="https://www.stjames.ie/patients/" target=""><i class="fas fa-chevron-right"></i>
                             Appointment information</a></li>
-                    <li><a class="dropdown-item " href="/consultants/" target=""><i class="fas fa-chevron-right"></i>
+                    <li><a class="dropdown-item " href="https://www.stjames.ie/consultants/" target=""><i class="fas fa-chevron-right"></i>
                             Find a consultant</a></li>
                     <li><a class="dropdown-item " href="https://www.supportstjames.ie/" target=""><i
                                 class="fas fa-chevron-right"></i> Make a donation</a></li>
-                    <li><a class="dropdown-item " href="/services/" target=""><i class="fas fa-chevron-right"></i> Find
+                    <li><a class="dropdown-item " href="https://www.stjames.ie/services/" target=""><i class="fas fa-chevron-right"></i> Find
                             a department</a></li>
-                    <li><a class="dropdown-item " href="/careers/" target=""><i class="fas fa-chevron-right"></i> View
+                    <li><a class="dropdown-item " href="https://www.stjames.ie/careers/" target=""><i class="fas fa-chevron-right"></i> View
                             job vacancies</a></li>
-                    <li><a class="dropdown-item " href="/patients/bloodtesting/" target=""><i
+                    <li><a class="dropdown-item " href="https://www.stjames.ie/patients/bloodtesting/" target=""><i
                                 class="fas fa-chevron-right"></i> Book a blood test</a></li>
-                    <li><a class="dropdown-item " href="/patients/payyourbill/" target=""><i
+                    <li><a class="dropdown-item " href="https://www.stjames.ie/patients/payyourbill/" target=""><i
                                 class="fas fa-chevron-right"></i> Pay a bill</a></li>
                 </ul>
                 <form class="form form--search" method="get" action="https://www.google.com/cse">
@@ -106,19 +106,19 @@
     <div class="header-sub">
         <ol class='nav nav-breadcrumbs'>
             <li class='breadcrumb'>
-                <a href="http://">Home</a>
+                <a href="https://www.stjames.ie/">Home</a>
             </li>
             <li class='breadcrumb'>
-                <a href="http://">Services</a>
+                <a href="https://www.stjames.ie/services/">Services</a>
             </li>
             <li class='breadcrumb'>
-                <a href="http://">Laboratory Medicine (LabMed)</a>
+                <a href="https://www.stjames.ie/services/laboratorymedicinelabmed/">Laboratory Medicine (LabMed)</a>
             </li>
             <li class='breadcrumb'>
-                <a href="http://">Histopathology and Cytopathology</a>
+                <a href="https://www.stjames.ie/services/laboratorymedicinelabmed/histopathologyandcytopathology/">Histopathology and Cytopathology</a>
             </li>
             <li class='breadcrumb'>
-                <a href="http://">Pathology Training Hub</a>
+                <a href="http://loosenthedark.tech/sjh-pathology-training-hub/">Pathology Training Hub</a>
             </li>
         </ol>
         <div class="container">

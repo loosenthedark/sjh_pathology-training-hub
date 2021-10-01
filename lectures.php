@@ -1,4 +1,4 @@
-<div class="container-tabset">
+<div class="container-tabset" id="lectures">
     <h2>Lecture Series</h2>
     <section class="tabset lectures">
         <div class="row">

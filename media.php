@@ -1,4 +1,4 @@
-<div class="container-tabset">
+<div class="container-tabset" id="media-resources">
     <h2>Media Resources</h2>
     <section class="tabset tabset-media">
         <div class="row">
@@ -17,7 +17,7 @@
                 <div class="container">
                     <div class="tab-content">
                         <article class="tab-pane container active show" id="lorem-sleft">
-                            <h3><i class="fas fa-podcast"></i></h3>
+                            <h3><i class="fas fa-headphones"></i></h3>
                             <ul>
                                 <li>
                                     <a href="">
@@ -25,7 +25,8 @@
                                         <div class="text-wrapper">
                                             <p>The official podcast of <cite>Modern Pathology</cite>, the journal of the US and Canadian Academy of Pathology (USCAP), ModPath Chat features interviews with authors, opinion leaders and experts on the latest
                                                 science, technology, and developments in the field of pathology. The monthly series is hosted by Dr. George J. Netto, the Editor-in-Chief of
-                                                <cite>Modern Pathology</cite> and the Chair of Pathology at the University of Alabama in Birmingham.</p>
+                                                <cite>Modern Pathology</cite> and the Chair of Pathology at the University of Alabama in Birmingham.
+                                            </p>
                                         </div>
                                     </a>
                                 </li>
@@ -63,26 +64,47 @@
                             <h3><i class="fab fa-youtube"></i></h3>
                             <ul>
                                 <li>
-                                    <a href=""><div class="media-wrapper"><iframe width="340" height="185" src="https://www.youtube.com/embed/49J2Fy5ibRY" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></div>
-                                                            <div class="text-wrapper"><p>Realtime discussion of renal pathology cases by a nephrology fellow, nephrologist and renal pathologist from the University of Washington. Episodes include guided reviews of the histology and special stains, relevant differential diagnosis and final diagnosis.</p>
+                                    <a href="">
+                                        <div class="media-wrapper"><iframe width="340" height="185" src="https://www.youtube.com/embed/49J2Fy5ibRY" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                                                allowfullscreen></iframe></div>
+                                        <div class="text-wrapper">
+                                            <h4>Washington University in St. Louis Nephrology Web Series</h4>
+                                            <p>Realtime discussion of renal pathology cases by a nephrology fellow and renal pathologist from the University of Washington. Episodes include guided reviews of the histology and special stains, relevant differential
+                                                diagnosis and final diagnosis.</p>
                                         </div>
                                     </a>
-                                    </li>
-                                    <li>
-                                    <a href=""><div class="media-wrapper"><iframe width="340" height="185" src="https://www.youtube.com/embed/m097UUkqU2Q" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></div>
-                                                            <div class="text-wrapper"><p>Video lecture series from Dr. John Minarcik covering all the major topics in the <cite>Robbins Pathology</cite> textbooks, as well as numerous virtual microscopy histopathology labs. Dr. Minarcik also runs a free online medical school pathology course that can be accessed here.</p>
+                                </li>
+                                <li>
+                                    <a href="">
+                                        <div class="media-wrapper"><iframe width="340" height="185" src="https://www.youtube.com/embed/m097UUkqU2Q" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                                                allowfullscreen></iframe></div>
+                                        <div class="text-wrapper">
+                                            <h4>Medical School Pathology</h4>
+                                            <p>Video lecture series from Dr. John Minarcik covering all the major topics in the <cite>Robbins Pathology</cite> textbooks, as well as numerous virtual microscopy histopathology labs. Dr. Minarcik also runs a
+                                                free online medical school pathology course that can be accessed here.</p>
                                         </div>
                                     </a>
-                                </li><li>
-                                    <a href=""><div class="media-wrapper"><iframe width="340" height="185" src="https://www.youtube.com/embed/yQQ2Dmz42Vs" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></div>
-                                                            <div class="text-wrapper"><p>Pennsylvania-based Dr. Jerad Gardner, MD, leads very comprehensive microscopic sessions on dermatopathology and soft tissue pathology.
-</p>
+                                </li>
+                                <li>
+                                    <a href="">
+                                        <div class="media-wrapper"><iframe width="340" height="185" src="https://www.youtube.com/embed/yQQ2Dmz42Vs" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                                                allowfullscreen></iframe></div>
+                                        <div class="text-wrapper">
+                                            <h4>Jerad Gardner, MD</h4>
+                                            <p>Pennsylvania-based Dr. Gardner, who is also a deputy Editor-in-Chief of
+                                                <cite>Archives of Pathology & Laboratory Medicine</cite>, leads regular comprehensive microscopic sessions on dermatopathology and soft tissue pathology.
+                                            </p>
                                         </div>
                                     </a>
-                                </li><li>
-                                    <a href=""><div class="media-wrapper"><iframe width="340" height="185" src="https://www.youtube.com/embed/UvvXrh1vQfA" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></div>
-                                                            <div class="text-wrapper"><p>Lecture series covering various aspects of pathology, including challenging topics and updates to disease classifications. Each one-hour session is streamed live and available for free, on-demand viewing.
-</p>
+                                </li>
+                                <li>
+                                    <a href="">
+                                        <div class="media-wrapper"><iframe width="340" height="185" src="https://www.youtube.com/embed/UvvXrh1vQfA" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                                                allowfullscreen></iframe></div>
+                                        <div class="text-wrapper">
+                                            <h4>pathCast</h4>
+                                            <p>Lecture series covering various aspects of pathology, including challenging topics and updates to disease classifications. Each one-hour session is streamed live and available for free, on-demand viewing.
+                                            </p>
                                         </div>
                                     </a>
                                 </li>

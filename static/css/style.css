@@ -37,6 +37,10 @@ Global Styles
     box-sizing: border-box;
 }
 
+html {
+    scroll-behavior: smooth;
+}
+
 body {
     line-height: 1.5;
     font-size: 0.875rem;
@@ -127,9 +131,10 @@ h5 {
 }
 
 h6 {
-    line-height: 1.15;
-    font-size: 1rem;
+    line-height: 1.25;
+    font-size: 1.25rem;
     font-weight: 400;
+    text-align: center;
 }
 
 p {
@@ -159,7 +164,7 @@ main {
     display: grid;
     grid-auto-flow: dense;
     grid-template-columns: auto 27rem;
-    grid-auto-rows: 35rem minmax(35rem, auto) minmax(35rem, auto) minmax(35rem, auto) auto;
+    grid-auto-rows: 35rem minmax(33rem, auto) minmax(33rem, auto) minmax(33rem, auto) auto;
     /* gap: 1rem; */
 }
 
@@ -170,6 +175,11 @@ aside {
     padding: 0 .625rem;
     position: relative;
     top: -.625rem;
+}
+
+iframe {
+    border: .05rem solid hsl(0, 0%, 90%);
+    border-radius: .125rem;
 }
 
 
@@ -899,10 +909,12 @@ Media Resources
     -webkit-box-flex: 0;
     flex: 0 0 calc(91% - .5rem);
     max-width: calc(91% - .5rem);
-    padding: 2.5rem;
+    padding: 2rem 2.5rem 2rem 3rem;
     background-color: var(--clr-primary-white);
     border: .0625rem solid var(--clr-primary-blue-dark);
-    min-height: 25rem;
+    position: relative;
+    left: .0625rem;
+    border-radius: .25rem;
 }
 
 .tabset-media .nav {
@@ -972,21 +984,29 @@ Media Resources
     border-left: .0625rem solid var(--clr-primary-blue-dark);
     padding-bottom: 1rem;
     bottom: .5rem;
+    border-top-left-radius: .25rem;
+    border-top-right-radius: .25rem;
 }
 
 .sideways-tabs.left-tabs .nav-link {
     background-color: var(--clr-primary-blue-dark);
     color: var(--clr-primary-white);
+    border-top-left-radius: .25rem;
+    border-top-right-radius: .25rem;
 }
 
 .tabset-media h3 {
     text-align: center;
-    font-size: 4.5rem;
+    font-size: 3.75rem;
     color: var(--clr-primary-blue-dark);
 }
 
 .tabset-media .img-wrapper {
     height: 6.5rem;
+}
+
+.tabset-media p {
+    font-size: .935rem;
 }
 
 .tabset-media img {
@@ -1000,11 +1020,15 @@ Media Resources
 }
 
 .tabset-media .tab-content li:nth-of-type(2) img {
-    width: 10rem;
+    width: 12rem;
 }
 
 .tabset-media .tab-content li:nth-of-type(4) img {
     width: 5rem;
+}
+
+.tabset-media article:nth-of-type(2) h3 {
+    margin-bottom: 2rem;
 }
 
 .tabset-media article ul {
@@ -1019,12 +1043,15 @@ Media Resources
 }
 
 .tabset-media article li {
-    width: 44%;
+    width: 45.5%;
     margin-bottom: 1rem;
+    text-align: left;
 }
 
 .tabset-media article:nth-of-type(2) li {
     width: 100%;
+    margin-bottom: 2rem;
+    min-height: 12.9375rem;
 }
 
 .tabset-media article li a {
@@ -1045,6 +1072,12 @@ Media Resources
     width: 40%;
 }
 
+.tabset-media article:nth-of-type(2) li a .text-wrapper h4 {
+    color: unset;
+    margin-bottom: .625rem;
+    font-weight: 800;
+}
+
 
 /*
 =============== 
@@ -1054,7 +1087,7 @@ Learning Supports
 
 .container-tabset {
     background-color: var(--clr-primary-blue-pale);
-    padding: 1rem;
+    padding: 1rem 1rem 0 .625rem;
 }
 
 .tabset {
@@ -1153,33 +1186,39 @@ Learning Supports
     z-index: 2;
     position: relative;
     background-color: var(--clr-primary-white);
+    margin-bottom: 0;
 }
 
 .tab-panel {
-    padding: 2.5rem 4rem 2.5rem 3rem;
+    padding: 2.5rem 3rem 2.5rem 2.5rem;
     border: .0625rem solid var(--clr-primary-blue-dark);
     border-bottom-left-radius: .25rem;
     border-bottom-right-radius: .25rem;
-    min-height: 25rem;
+    min-height: calc(25.6875rem + 2px);
 }
 
 .tab-panel img {
-    width: 12rem;
+    width: 10rem;
     margin-right: 1.5rem;
 }
 
 .tab-panel .logo-expertpath {
     width: 8rem;
     position: relative;
-    top: 2.5rem;
+    top: 2rem;
 }
 
 .tab-panel p {
     text-align: left;
 }
 
-.tab-panel p:last-of-type {
-    margin-bottom: 0;
+#learning-supports .btn {
+    display: inline-block;
+    margin-top: 1rem;
+}
+
+#learning-supports .btn:hover {
+    transform: scale(1.05);
 }
 
 
@@ -1240,22 +1279,49 @@ Slides
     position: relative;
     clip-path: polygon(50% 0%, 100% 50%, 50% 100%, 0% 50%);
     /* filter: grayscale(100%); */
-    transition: filter 1s;
+    transition: all .1s ease-in-out;
 }
 
 .tabset-slides .image:hover {
     filter: grayscale(0);
+    cursor: pointer;
+    transform: scale(1.0375);
 }
 
 .tabset-slides img {
+    object-fit: cover;
+    object-position: top;
+}
+
+.tabset-slides img,
+.tabset-slides .overlay,
+.tabset-slides .overlay-text {
     position: absolute;
     height: 100%;
     width: 100%;
     top: 0;
     left: 0;
-    object-fit: cover;
-    object-position: top;
-    box-sizing: border-box;
+    background-color: var(--clr-primary-blue-dark);
+}
+
+.tabset-slides .overlay {
+    opacity: 0;
+    transition: all .1s ease-in-out;
+}
+
+.tabset-slides .overlay-text {
+    opacity: 0;
+    color: var(--clr-primary-white);
+    background-color: transparent;
+    transition: all .1s ease-in-out;
+}
+
+.tabset-slides .image:hover .overlay {
+    opacity: .975;
+}
+
+.tabset-slides .image:hover .overlay-text {
+    opacity: 1;
 }
 
 .tabset-slides .image:first-child img {
@@ -1315,27 +1381,36 @@ Lectures
 }
 
 .lectures .tab-content {
-    max-height: 0;
+    height: 0;
     padding: 0 1.25rem;
     color: var(--clr-primary-blue-dark);
     background: var(--clr-primary-white);
-    transition: all .35s;
+    transition: all .25s;
+}
+
+.lectures .tab-content>* {
+    opacity: 0;
 }
 
 .lectures .tab-content>img {
     width: 10rem;
-    margin-right: 2rem;
+    margin-right: 2.5rem;
+}
+
+.lectures .tab:nth-of-type(2) .tab-content>img {
+    width: 11rem;
+    margin-right: 1.5rem;
 }
 
 .lectures .tab:nth-of-type(3) .tab-content>img {
-    width: 8.5rem;
-    margin-right: 2.75rem;
-    margin-left: .75rem;
+    width: 4.75rem;
+    margin-right: 4.5rem;
+    margin-left: 3rem;
 }
 
 .lectures .tab-content>p {
     margin: 0;
-    font-size: 1.125rem;
+    font-size: 1.1rem;
     color: var(--clr-primary-black);
 }
 
@@ -1348,7 +1423,8 @@ Lectures
     font-weight: 700;
     cursor: pointer;
     line-height: 1;
-    margin-bottom: .1rem;
+    margin-bottom: .125rem;
+    z-index: 7;
 }
 
 .lectures .tab-label:hover {
@@ -1374,10 +1450,25 @@ input:checked+.tab-label::after {
 }
 
 input:checked~.tab-content {
-    max-height: 100vh;
-    min-height: 12rem;
+    height: 8.25rem;
     padding: 1.75rem 3rem 1.75rem 2.25rem;
     display: flex;
     justify-content: center;
     align-items: center;
+    z-index: 6;
+}
+
+input:checked~.tab-content>* {
+    animation: text-fade-in .125s ease-in-out;
+    animation-fill-mode: forwards;
+    animation-delay: .125s;
+}
+
+@keyframes text-fade-in {
+    0% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+    }
 }

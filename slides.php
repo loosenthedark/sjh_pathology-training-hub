@@ -12,43 +12,41 @@
   Also worth reading:
   http://simplyaccessible.com/article/danger-aria-tabs/
 -->
-<div class="container-tabset">
+<div class="container-tabset" id="slides">
     <h2>Virtual Slides</h2>
     <section class="tabset tabset-slides">
         <article class="container">
         <figure class="image">
           <img
             src="static/images/logos/logo-leeds.jpeg"
-            alt="Photo by Joseph Gonzalez"
-            loading="lazy"
+            alt="Leeds University Pathology logo"
           />
+          <div class="overlay"></div>
+          <div class="overlay-text flex-centre"><h6>Virtual Pathology Slide Library</h6></div>
         </figure>
         <figure class="image">
           <img
             src="static/images/slide-1.png"
-            alt="Photo by EDDIE DEAN"
-            width="5184"
-            height="3456"
-            loading="lazy"
+            alt="pathology slide detail"
           />
+          <div class="overlay"></div>
+          <div class="overlay-text flex-centre"><h6>EQA Slides</h6></div>
         </figure>
         <figure class="image">
           <img
             src="static/images/slide-2.jpg"
-            alt="Photo by Karabo Mdluli"
-            width="4000"
-            height="6016"
-            loading="lazy"
+            alt="pathology slide detail"
           />
+          <div class="overlay"></div>
+          <div class="overlay-text flex-centre"><h6>Normal Histology Slides</h6></div>
         </figure>
         <figure class="image">
           <img
             src="static/images/microscope.jpg"
-            alt="Photo by Jeffery Erhunse"
-            width="4024"
-            height="6048"
-            loading="lazy"
+            alt="hand using microscope to examine slide"
           />
+          <div class="overlay"></div>
+          <div class="overlay-text flex-centre"><h6>FRCPath Past Examination<br> Slides</h6></div>
         </figure>
       </article>
     </section>

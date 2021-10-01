@@ -5,31 +5,31 @@
                 <a href="#carousel__slide5" class="carousel__prev">Go to last slide</a>
                 <a href="#carousel__slide2" class="carousel__next">Go to next slide</a>
             </div>
-            <a href="/patients/findingyourwayaround/" class="btn btn-brand-1">Online Resources</a>
+            <a href="#learning-supports" class="btn btn-brand-1">Learning Supports</a>
         </li>
         <li id="carousel__slide2" tabindex="0" class="carousel__slide">
             <div class="carousel__snapper"></div>
             <a href="#carousel__slide1" class="carousel__prev">Go to previous slide</a>
             <a href="#carousel__slide3" class="carousel__next">Go to next slide</a>
-            <a href="/patients/findingyourwayaround/" class="btn btn-brand-1">Lecture Series</a>
+            <a href="#media-resources" class="btn btn-brand-1">Pathology Podcasts</a>
         </li>
         <li id="carousel__slide3" tabindex="0" class="carousel__slide">
             <div class="carousel__snapper"></div>
             <a href="#carousel__slide2" class="carousel__prev">Go to previous slide</a>
             <a href="#carousel__slide4" class="carousel__next">Go to next slide</a>
-            <a href="/patients/findingyourwayaround/" class="btn btn-brand-1">Virtual Slides</a>
+            <a href="#media-resources" class="btn btn-brand-1">Training Videos</a>
         </li>
         <li id="carousel__slide4" tabindex="0" class="carousel__slide">
             <div class="carousel__snapper"></div>
             <a href="#carousel__slide3" class="carousel__prev">Go to previous slide</a>
             <a href="#carousel__slide5" class="carousel__next">Go to next slide</a>
-            <a href="/patients/findingyourwayaround/" class="btn btn-brand-1">Pathology Podcasts</a>
+            <a href="#slides" class="btn btn-brand-1">Virtual Slides</a>
         </li>
         <li id="carousel__slide5" tabindex="0" class="carousel__slide">
             <div class="carousel__snapper"></div>
             <a href="#carousel__slide4" class="carousel__prev">Go to previous slide</a>
             <a href="#carousel__slide1" class="carousel__next">Go to first slide</a>
-            <a href="/patients/findingyourwayaround/" class="btn btn-brand-1">Training Videos</a>
+            <a href="#lectures" class="btn btn-brand-1">Lecture Series</a>
         </li>
     </ol>
     <div class="carousel__navigation">
