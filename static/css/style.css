@@ -177,11 +177,6 @@ aside {
     top: -.625rem;
 }
 
-iframe {
-    border: .05rem solid hsl(0, 0%, 90%);
-    border-radius: .125rem;
-}
-
 
 /*  Global utility classes */
 
@@ -1046,17 +1041,28 @@ Media Resources
     width: 45.5%;
     margin-bottom: 1rem;
     text-align: left;
+    transition: all .2s linear;
+    border-radius: .25rem;
+}
+
+.tabset-media article:first-of-type li {
+    padding-left: 1rem;
+    padding-right: .75rem;
 }
 
 .tabset-media article:nth-of-type(2) li {
     width: 100%;
-    margin-bottom: 2rem;
-    min-height: 12.9375rem;
+    margin-bottom: 1rem;
+    min-height: 12.625rem;
 }
 
 .tabset-media article li a {
     color: var(--clr-primary-black);
     line-height: 1.33;
+}
+
+.tabset-media article li:hover {
+    background-color: hsl(0, 0%, 97%);
 }
 
 .tabset-media article:nth-of-type(2) li a {
@@ -1065,11 +1071,24 @@ Media Resources
 }
 
 .tabset-media article:nth-of-type(2) li a .media-wrapper {
-    width: 60%;
+    width: 53%;
+    padding-top: 1rem;
+    padding-left: 1rem;
+}
+
+.media-wrapper iframe {
+    border: .05rem solid hsl(0, 0%, 90%);
+    border-radius: .125rem;
 }
 
 .tabset-media article:nth-of-type(2) li a .text-wrapper {
-    width: 40%;
+    width: 47%;
+    padding: 1rem .75rem 0 1rem;
+}
+
+.tabset-media article:nth-of-type(2) li a .text-wrapper p {
+    font-size: .87rem;
+    line-height: 1.45;
 }
 
 .tabset-media article:nth-of-type(2) li a .text-wrapper h4 {
@@ -1189,23 +1208,34 @@ Learning Supports
     margin-bottom: 0;
 }
 
+.tab-panels .img-wrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    min-height: 15.72rem;
+    position: relative;
+    margin-right: 2.75rem;
+    top: -1rem;
+}
+
 .tab-panel {
     padding: 2.5rem 3rem 2.5rem 2.5rem;
     border: .0625rem solid var(--clr-primary-blue-dark);
     border-bottom-left-radius: .25rem;
     border-bottom-right-radius: .25rem;
-    min-height: calc(25.6875rem + 2px);
+    min-height: 23.125rem;
 }
 
 .tab-panel img {
     width: 10rem;
-    margin-right: 1.5rem;
 }
 
 .tab-panel .logo-expertpath {
     width: 8rem;
-    position: relative;
-    top: 2rem;
+    position: absolute;
+    top: 3%;
+    left: 13%;
 }
 
 .tab-panel p {
@@ -1215,10 +1245,27 @@ Learning Supports
 #learning-supports .btn {
     display: inline-block;
     margin-top: 1rem;
+    min-width: 10rem;
 }
 
 #learning-supports .btn:hover {
     transform: scale(1.05);
+}
+
+.tab-panel:nth-of-type(2) .img-wrapper {
+    top: -1.5rem;
+}
+
+#learning-supports .tab-panel:nth-of-type(3) .img-wrapper img {
+    width: 8rem;
+}
+
+#learning-supports .tab-panel:nth-of-type(3) .img-wrapper .btn {
+    margin-top: 3rem;
+}
+
+#learning-supports .tab-panel:nth-of-type(2) .img-wrapper .btn {
+    margin-top: 2rem;
 }
 
 

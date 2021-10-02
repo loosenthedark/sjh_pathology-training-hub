@@ -20,7 +20,8 @@
                             <h3><i class="fas fa-headphones"></i></h3>
                             <ul>
                                 <li>
-                                    <a href="">
+                                    <a href="https://www.nature.com/modpathol/modpath-chat
+" target="_blank">
                                         <div class="img-wrapper flex-centre"><img src="static/images/logos/logo-mpc.png" alt="ModPath Chat logo"></div>
                                         <div class="text-wrapper">
                                             <p>The official podcast of <cite>Modern Pathology</cite>, the journal of the US and Canadian Academy of Pathology (USCAP), ModPath Chat features interviews with authors, opinion leaders and experts on the latest
@@ -31,7 +32,9 @@
                                     </a>
                                 </li>
                                 <li>
-                                    <a href="">
+                                    <a href="https://podcasts.apple.com/us/podcast/capcast-from-the-college-of-american-pathologists/id1279391140
+
+" target="_blank">
                                         <div class="img-wrapper flex-centre"><img src="static/images/logos/logo-cap.jpg" alt="CAP logo"></div>
                                         <div class="text-wrapper">
                                             <p>The College of American Pathologists' CAPcasts feature interviews with leading pathologists on current issues impacting pathology and laboratory medicine. CAP is the leading organization of board-certified pathologists,
@@ -40,7 +43,9 @@
                                     </a>
                                 </li>
                                 <li>
-                                    <a href="">
+                                    <a href="https://digitalpathologyplace.com/podcast/
+
+" target="_blank">
                                         <div class="img-wrapper flex-centre"><img src="static/images/logos/logo-dpp.png" alt="Digital Pathology Place logo"></div>
                                         <div class="text-wrapper">
                                             <p>Aleksandra Zuraw discusses digital pathology, from the basic concepts to the newest developments, including image analysis and artificial intelligence. She also reviews scientific literature and - together with
@@ -50,7 +55,8 @@
                                     </a>
                                 </li>
                                 <li>
-                                    <a href="">
+                                    <a href="https://deeperlevels.natalieba.net/
+" target="_blank">
                                         <div class="img-wrapper flex-centre"><img src="static/images/logos/logo-dl.png" alt="Deeper Levels logo"></div>
                                         <div class="text-wrapper">
                                             <p>A podcast about pathology, medicine, and science hosted by Natalie Banet, MD, a practicing Gynecologic and Cytopathologist and Assistant Professor of Pathology and Laboratory Medicine at the Warren Alpert Medical
@@ -64,8 +70,8 @@
                             <h3><i class="fab fa-youtube"></i></h3>
                             <ul>
                                 <li>
-                                    <a href="">
-                                        <div class="media-wrapper"><iframe width="340" height="185" src="https://www.youtube.com/embed/49J2Fy5ibRY" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                                    <a href="https://www.youtube.com/channel/UC1mJLTtBsf6PTbuiv08vcOA" target="_blank">
+                                        <div class="media-wrapper"><iframe width="306" height="167" src="https://www.youtube.com/embed/49J2Fy5ibRY" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
                                                 allowfullscreen></iframe></div>
                                         <div class="text-wrapper">
                                             <h4>Washington University in St. Louis Nephrology Web Series</h4>
@@ -75,31 +81,36 @@
                                     </a>
                                 </li>
                                 <li>
-                                    <a href="">
-                                        <div class="media-wrapper"><iframe width="340" height="185" src="https://www.youtube.com/embed/m097UUkqU2Q" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                                    <a href="https://www.youtube.com/user/WashingtonDeceit
+" target="_blank">
+                                        <div class="media-wrapper"><iframe width="306" height="167" src="https://www.youtube.com/embed/m097UUkqU2Q" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
                                                 allowfullscreen></iframe></div>
                                         <div class="text-wrapper">
                                             <h4>Medical School Pathology</h4>
                                             <p>Video lecture series from Dr. John Minarcik covering all the major topics in the <cite>Robbins Pathology</cite> textbooks, as well as numerous virtual microscopy histopathology labs. Dr. Minarcik also runs a
-                                                free online medical school pathology course that can be accessed here.</p>
+                                                free online medical school pathology course that can be accessed here: <strong style="color: hsl(218, 50%, 21%);">bit.ly/3ow0aSD</strong>.</p>
                                         </div>
                                     </a>
                                 </li>
                                 <li>
-                                    <a href="">
-                                        <div class="media-wrapper"><iframe width="340" height="185" src="https://www.youtube.com/embed/yQQ2Dmz42Vs" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                                    <a href="https://www.youtube.com/channel/UCfW2GM4Yqqg1pScI-2clhYQ
+
+" target="_blank">
+                                        <div class="media-wrapper"><iframe width="306" height="167" src="https://www.youtube.com/embed/yQQ2Dmz42Vs" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
                                                 allowfullscreen></iframe></div>
                                         <div class="text-wrapper">
                                             <h4>Jerad Gardner, MD</h4>
-                                            <p>Pennsylvania-based Dr. Gardner, who is also a deputy Editor-in-Chief of
+                                            <p>Pennsylvania-based Dr. Gardner, who is a deputy Editor-in-Chief of
                                                 <cite>Archives of Pathology & Laboratory Medicine</cite>, leads regular comprehensive microscopic sessions on dermatopathology and soft tissue pathology.
                                             </p>
                                         </div>
                                     </a>
                                 </li>
                                 <li>
-                                    <a href="">
-                                        <div class="media-wrapper"><iframe width="340" height="185" src="https://www.youtube.com/embed/UvvXrh1vQfA" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                                    <a href="https://www.youtube.com/c/pathCast
+
+" target="_blank">
+                                        <div class="media-wrapper"><iframe width="306" height="167" src="https://www.youtube.com/embed/UvvXrh1vQfA" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
                                                 allowfullscreen></iframe></div>
                                         <div class="text-wrapper">
                                             <h4>pathCast</h4>
