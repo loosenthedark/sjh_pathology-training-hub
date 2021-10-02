@@ -16,38 +16,45 @@
     <h2>Virtual Slides</h2>
     <section class="tabset tabset-slides">
         <article class="container">
-        <figure class="image">
+        <a class="image" href="https://www.virtualpathology.leeds.ac.uk/slides/
+" target="_blank">
           <img
             src="static/images/logos/logo-leeds.jpeg"
             alt="Leeds University Pathology logo"
           />
           <div class="overlay"></div>
           <div class="overlay-text flex-centre"><h6>Virtual Pathology Slide Library</h6></div>
-        </figure>
-        <figure class="image">
+        </a>
+        <a class="image" href="https://www.virtualpathology.leeds.ac.uk/eqa/
+
+" target="_blank">
           <img
             src="static/images/slide-1.png"
             alt="pathology slide detail"
           />
           <div class="overlay"></div>
           <div class="overlay-text flex-centre"><h6>EQA Slides</h6></div>
-        </figure>
-        <figure class="image">
+        </a>
+        <a class="image" href="https://www.virtualpathology.leeds.ac.uk/teaching/normal/
+
+" target="_blank">
           <img
             src="static/images/slide-2.jpg"
             alt="pathology slide detail"
           />
           <div class="overlay"></div>
           <div class="overlay-text flex-centre"><h6>Normal Histology Slides</h6></div>
-        </figure>
-        <figure class="image">
+        </a>
+        <a class="image" href="https://www.virtualpathology.leeds.ac.uk/frcpath/
+
+" target="_blank">
           <img
             src="static/images/microscope.jpg"
             alt="hand using microscope to examine slide"
           />
           <div class="overlay"></div>
           <div class="overlay-text flex-centre"><h6>FRCPath Past Examination<br> Slides</h6></div>
-        </figure>
+        </a>
       </article>
     </section>
 </div>

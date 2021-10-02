@@ -1242,13 +1242,17 @@ Learning Supports
     text-align: left;
 }
 
-#learning-supports .btn {
+#learning-supports .btn,
+#lectures .btn {
     display: inline-block;
     margin-top: 1rem;
-    min-width: 10rem;
+    min-width: 8rem;
+    padding: .8rem 1.1rem;
+    font-size: .875rem;
 }
 
-#learning-supports .btn:hover {
+#learning-supports .btn:hover,
+#lectures .btn:hover {
     transform: scale(1.05);
 }
 
@@ -1364,7 +1368,7 @@ Slides
 }
 
 .tabset-slides .image:hover .overlay {
-    opacity: .975;
+    opacity: .9;
 }
 
 .tabset-slides .image:hover .overlay-text {
@@ -1439,9 +1443,9 @@ Lectures
     opacity: 0;
 }
 
-.lectures .tab-content>img {
+.lectures .tab-content img {
     width: 10rem;
-    margin-right: 2.5rem;
+    margin-bottom: 1.75rem;
 }
 
 .lectures .tab:nth-of-type(2) .tab-content>img {
@@ -1449,16 +1453,23 @@ Lectures
     margin-right: 1.5rem;
 }
 
-.lectures .tab:nth-of-type(3) .tab-content>img {
-    width: 4.75rem;
-    margin-right: 4.5rem;
-    margin-left: 3rem;
+.lectures .tab:nth-of-type(3) .tab-content img {
+    width: 5.33rem;
+    margin-bottom: 1rem;
 }
 
-.lectures .tab-content>p {
-    margin: 0;
-    font-size: 1.1rem;
+.lectures .tab-content p {
+    margin: 0 0 .5rem 0;
+    font-size: 1rem;
+    line-height: 1.4;
     color: var(--clr-primary-black);
+}
+
+.lectures .tab-content ul {
+    text-align: left;
+    margin-bottom: 0;
+    list-style-type: disc;
+    list-style-position: inside;
 }
 
 .lectures .tab-label {
@@ -1497,12 +1508,19 @@ input:checked+.tab-label::after {
 }
 
 input:checked~.tab-content {
-    height: 8.25rem;
+    height: 15rem;
     padding: 1.75rem 3rem 1.75rem 2.25rem;
     display: flex;
     justify-content: center;
     align-items: center;
     z-index: 6;
+}
+
+input:checked~.tab-content>.img-wrapper-lectures {
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    margin-right: 2.5rem;
 }
 
 input:checked~.tab-content>* {
