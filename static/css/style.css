@@ -1237,6 +1237,23 @@ Media Resources
 }
 
 
+/* extra-large desktop */
+
+@media screen and (min-width: 1600px) {
+    .tabset-media .col-md-11 {
+        left: calc(1rem + 8.3333333333% - 0.34vw);
+        flex: 0 0 calc(91% - .5rem - 4vw);
+        max-width: calc(91% - .5rem - 4vw);
+    }
+    .sideways-tabs.left-tabs .nav-link.active {
+        bottom: -4.175vw;
+    }
+    .sideways-tabs.left-tabs .nav-link {
+        bottom: -4.6vw;
+    }
+}
+
+
 /*
 =============== 
 Learning Supports
@@ -1420,11 +1437,15 @@ Learning Supports
 @media screen and (min-width: 1440px) {
     .container-tabset:first-of-type>h2,
     .container-tabset:first-of-type>.tabset,
+    .container-tabset:nth-of-type(2)>h2,
     .container-tabset:nth-of-type(3)>h2,
     .container-tabset:nth-of-type(3)>.tabset,
     .container-tabset:nth-of-type(4)>h2,
     .container-tabset:nth-of-type(4)>.tabset {
         margin-left: 4.34vw;
+    }
+    .container-tabset:nth-of-type(2)>h2 {
+        max-width: 47rem;
     }
 }
 
@@ -1434,11 +1455,15 @@ Learning Supports
 @media screen and (min-width: 1600px) {
     .container-tabset:first-of-type>h2,
     .container-tabset:first-of-type>.tabset,
+    .container-tabset:nth-of-type(2)>h2,
     .container-tabset:nth-of-type(3)>h2,
     .container-tabset:nth-of-type(3)>.tabset,
     .container-tabset:nth-of-type(4)>h2,
     .container-tabset:nth-of-type(4)>.tabset {
         margin-left: 8.9vw;
+    }
+    .container-tabset:nth-of-type(2)>.tabset {
+        max-width: calc(46.0625rem + 8.9vw);
     }
 }
 
