@@ -1439,6 +1439,10 @@ Lectures
     transition: all .25s;
 }
 
+.lectures .tab:nth-of-type(3) .tab-content {
+    padding: 0 1.25rem 0 3.25rem;
+}
+
 .lectures .tab-content>* {
     opacity: 0;
 }
@@ -1521,6 +1525,10 @@ input:checked~.tab-content>.img-wrapper-lectures {
     display: flex;
     flex-direction: column;
     margin-right: 2.5rem;
+}
+
+.tab:nth-of-type(3) input:checked~.tab-content>.img-wrapper-lectures {
+    margin-right: 3.75rem;
 }
 
 input:checked~.tab-content>* {
