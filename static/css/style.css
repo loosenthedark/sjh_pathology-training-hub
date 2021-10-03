@@ -14,6 +14,7 @@ Variables
     --clr-primary-black: hsl(0, 0%, 20%);
     --clr-primary-blue-dark: hsl(218, 50%, 21%);
     --clr-primary-blue-pale: hsl(223, 30%, 95%);
+    --clr-primary-blue-mid: hsl(219, 33%, 90%);
     --clr-primary-gold: hsl(47, 100%, 61%);
     /* Letter spacing */
     --ls-spaced-main: letter-spacing: 0.01rem;
@@ -182,6 +183,7 @@ aside {
     padding: 0 .625rem;
     position: relative;
     top: -.625rem;
+    overflow-y: hidden;
 }
 
 
@@ -1727,7 +1729,7 @@ Footer
 
 footer {
     padding: 3.125rem 0 4.375rem;
-    background-color: var(--clr-primary-blue-pale);
+    background-color: var(--clr-primary-blue-mid);
 }
 
 .footer p,
@@ -1815,7 +1817,7 @@ footer>.container>.row>.col-lg-6 {
 
 .footer .nav {
     justify-content: flex-end;
-    background-color: var(--clr-primary-blue-pale);
+    background-color: var(--clr-primary-blue-mid);
 }
 
 .footer .nav-social a {
