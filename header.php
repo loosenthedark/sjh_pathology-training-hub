@@ -106,8 +106,8 @@
         </div>
     </nav>
     <div class="banner"></div>
-    <h1 class="width-max">Pathology Training Hub</h1>
-    <div class="header-sub width-max">
+    <h1>Pathology Training Hub</h1>
+    <div class="header-sub">
         <ol class='nav nav-breadcrumbs'>
             <li class='breadcrumb'>
                 <a href="https://www.stjames.ie/">Home</a>

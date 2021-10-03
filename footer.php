@@ -1,5 +1,5 @@
 <footer class="component footer">
-    <div class="container width-max">
+    <div class="container">
         <div class="row">
             <div class="col-md-3">
                 <h3 class="heading heading--s">

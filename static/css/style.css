@@ -85,6 +85,9 @@ h1 {
     font-weight: 700;
     line-height: 1.2;
     position: relative;
+    max-width: 81.25rem;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 h2 {
@@ -191,9 +194,21 @@ aside {
 }
 
 .width-max {
-    max-width: 81.25rem;
-    margin-left: auto;
+    max-width: calc(81.25rem + 4.34vw);
+    margin-left: 0;
     margin-right: auto;
+}
+
+
+/* Media Query */
+
+
+/* extra-large desktop */
+
+@media screen and (min-width: 1600px) {
+    .width-max {
+        max-width: calc(81.25rem + 8.9vw);
+    }
 }
 
 
@@ -215,6 +230,27 @@ Buttons
     padding: 0.4375rem 1.25rem;
     position: relative;
     z-index: 5;
+}
+
+
+/* Media Query */
+
+
+/* large desktop */
+
+@media screen and (min-width: 1440px) {
+    .dropdown-toggle {
+        padding: 0.4375rem 4rem;
+    }
+}
+
+
+/* extra-large desktop */
+
+@media screen and (min-width: 1600px) {
+    .dropdown-toggle {
+        padding: 0.4375rem 5rem;
+    }
 }
 
 .btn {
@@ -496,6 +532,51 @@ form {
 }
 
 
+/* Media Query */
+
+
+/* large desktop */
+
+@media screen and (min-width: 1440px) {
+    .navbar-brand:first-of-type {
+        padding-left: 4rem;
+    }
+    .navbar-brand:last-of-type {
+        padding-right: 4rem;
+    }
+    /* .toggle-icons {
+        right: 4rem;
+    } */
+    .dropdown-menu {
+        padding-left: 2rem;
+    }
+    form {
+        padding: 0 4.5rem 1.5rem 2.5rem;
+    }
+}
+
+
+/* extra-large desktop */
+
+@media screen and (min-width: 1600px) {
+    .navbar-brand:first-of-type {
+        padding-left: 5rem;
+    }
+    .navbar-brand:last-of-type {
+        padding-right: 5rem;
+    }
+    /* .toggle-icons {
+        right: 5rem;
+    } */
+    .dropdown-menu {
+        padding-left: 3rem;
+    }
+    form {
+        padding: 0 5.5rem 1.5rem 2.5rem;
+    }
+}
+
+
 /*
 =============== 
 Header
@@ -526,6 +607,9 @@ h1::after {
 .header-sub {
     padding: .75rem .625rem .8125rem;
     display: flex;
+    max-width: 81.25rem;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 .header-sub>ol {
@@ -887,6 +971,21 @@ Carousel
     transform: translate(-50%, -50%) scale(1.05);
 }
 
+@media screen and (min-width: 1440px) {
+    .carousel {
+        margin-left: calc(.625rem + 4.34vw);
+    }
+}
+
+
+/* extra-large desktop */
+
+@media screen and (min-width: 1600px) {
+    .carousel {
+        margin-left: calc(.625rem + 8.9vw);
+    }
+}
+
 
 /*
 =============== 
@@ -1062,7 +1161,7 @@ Media Resources
 
 .tabset-media article:nth-of-type(2) li {
     width: 100%;
-    margin-bottom: 1rem;
+    margin-bottom: .5rem;
     min-height: 12.625rem;
 }
 
@@ -1105,6 +1204,34 @@ Media Resources
     color: unset;
     margin-bottom: .625rem;
     font-weight: 800;
+}
+
+
+/* Media Query */
+
+
+/* large desktop */
+
+@media screen and (min-width: 1440px) {
+    .tabset-media .col-md-1 {
+        -webkit-box-flex: 0;
+        flex: 0 0 4.34vw;
+        max-width: 4.34vw;
+        padding-left: 1.875rem;
+    }
+    .tabset-media .col-md-11 {
+        left: calc(1rem + 8.3333333333% - 4.34vw);
+    }
+    .container-tabset:nth-of-type(2)>h2,
+    .container-tabset:nth-of-type(2)>.tabset {
+        max-width: calc(46.0625rem + 4.34vw);
+    }
+    .sideways-tabs.left-tabs .nav-link.active {
+        bottom: .25rem;
+    }
+    .sideways-tabs.left-tabs .nav-link {
+        bottom: -.25rem;
+    }
 }
 
 
@@ -1280,6 +1407,37 @@ Learning Supports
 
 #learning-supports .tab-panel:nth-of-type(2) .img-wrapper .btn {
     margin-top: 2rem;
+}
+
+
+/* Media Query */
+
+
+/* large desktop */
+
+@media screen and (min-width: 1440px) {
+    .container-tabset:first-of-type>h2,
+    .container-tabset:first-of-type>.tabset,
+    .container-tabset:nth-of-type(3)>h2,
+    .container-tabset:nth-of-type(3)>.tabset,
+    .container-tabset:nth-of-type(4)>h2,
+    .container-tabset:nth-of-type(4)>.tabset {
+        margin-left: 4.34vw;
+    }
+}
+
+
+/* extra-large desktop */
+
+@media screen and (min-width: 1600px) {
+    .container-tabset:first-of-type>h2,
+    .container-tabset:first-of-type>.tabset,
+    .container-tabset:nth-of-type(3)>h2,
+    .container-tabset:nth-of-type(3)>.tabset,
+    .container-tabset:nth-of-type(4)>h2,
+    .container-tabset:nth-of-type(4)>.tabset {
+        margin-left: 8.9vw;
+    }
 }
 
 
@@ -1581,6 +1739,9 @@ footer {
 
 footer>.container {
     padding: 0 .625rem;
+    max-width: 81.25rem;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 footer>.container>.row {
