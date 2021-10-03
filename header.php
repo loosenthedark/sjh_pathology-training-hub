@@ -12,7 +12,8 @@
                 <ul>
                     <li><a href="https://www.stjames.ie/aboutus/">About us</a></li>
                     <li><a href="https://www.stjames.ie/aboutus/history/">Our history</a></li>
-                    <li><a href="https://www.stjames.ie/aboutus/executivemanagementgroup/">Executive Management Group</a></li>
+                    <li><a href="https://www.stjames.ie/aboutus/executivemanagementgroup/">Executive Management
+                            Group</a></li>
                     <li><a href="https://www.stjames.ie/aboutus/hospitalboard/">Hospital board</a></li>
                     <li><a href="https://www.stjames.ie/aboutus/news/">Latest news</a></li>
                 </ul>
@@ -74,17 +75,20 @@
             </button>
             <div class="collapse dropdown-menu" aria-labelledby="navbar-search__toggle">
                 <ul class="dropdown-nav">
-                    <li><a class="dropdown-item " href="https://www.stjames.ie/aboutus/gettingtothehospital/" target=""><i
-                                class="fas fa-chevron-right"></i> Get directions</a></li>
-                    <li><a class="dropdown-item " href="https://www.stjames.ie/patients/" target=""><i class="fas fa-chevron-right"></i>
+                    <li><a class="dropdown-item " href="https://www.stjames.ie/aboutus/gettingtothehospital/" target=""><i class="fas fa-chevron-right"></i> Get directions</a></li>
+                    <li><a class="dropdown-item " href="https://www.stjames.ie/patients/" target=""><i
+                                class="fas fa-chevron-right"></i>
                             Appointment information</a></li>
-                    <li><a class="dropdown-item " href="https://www.stjames.ie/consultants/" target=""><i class="fas fa-chevron-right"></i>
+                    <li><a class="dropdown-item " href="https://www.stjames.ie/consultants/" target=""><i
+                                class="fas fa-chevron-right"></i>
                             Find a consultant</a></li>
                     <li><a class="dropdown-item " href="https://www.supportstjames.ie/" target=""><i
                                 class="fas fa-chevron-right"></i> Make a donation</a></li>
-                    <li><a class="dropdown-item " href="https://www.stjames.ie/services/" target=""><i class="fas fa-chevron-right"></i> Find
+                    <li><a class="dropdown-item " href="https://www.stjames.ie/services/" target=""><i
+                                class="fas fa-chevron-right"></i> Find
                             a department</a></li>
-                    <li><a class="dropdown-item " href="https://www.stjames.ie/careers/" target=""><i class="fas fa-chevron-right"></i> View
+                    <li><a class="dropdown-item " href="https://www.stjames.ie/careers/" target=""><i
+                                class="fas fa-chevron-right"></i> View
                             job vacancies</a></li>
                     <li><a class="dropdown-item " href="https://www.stjames.ie/patients/bloodtesting/" target=""><i
                                 class="fas fa-chevron-right"></i> Book a blood test</a></li>
@@ -115,7 +119,8 @@
                 <a href="https://www.stjames.ie/services/laboratorymedicinelabmed/">Laboratory Medicine (LabMed)</a>
             </li>
             <li class='breadcrumb'>
-                <a href="https://www.stjames.ie/services/laboratorymedicinelabmed/histopathologyandcytopathology/">Histopathology and Cytopathology</a>
+                <a href="https://www.stjames.ie/services/laboratorymedicinelabmed/histopathologyandcytopathology/">Histopathology
+                    and Cytopathology</a>
             </li>
             <li class='breadcrumb'>
                 <a href="http://loosenthedark.tech/sjh-pathology-training-hub/">Pathology Training Hub</a>
@@ -125,13 +130,16 @@
             <h5>Share</h5>
             <ul class='nav nav-social'>
                 <li class='list-item-social'>
-                    <a href="https://www.linkedin.com/" target="_blank" class='flex-centre'><i class="fab fa-linkedin-in"></i></a>
+                    <a href="https://www.linkedin.com/" target="_blank" class='flex-centre'><i
+                            class="fab fa-linkedin-in"></i></a>
                 </li>
                 <li class='list-item-social'>
-                    <a href="https://www.facebook.com/" target="_blank" class='flex-centre'><i class="fab fa-facebook-f"></i></a>
+                    <a href="https://www.facebook.com/" target="_blank" class='flex-centre'><i
+                            class="fab fa-facebook-f"></i></a>
                 </li>
                 <li class='list-item-social'>
-                    <a href="https://twitter.com/" target="_blank" class='flex-centre'><i class="fab fa-twitter"></i></a>
+                    <a href="https://twitter.com/" target="_blank" class='flex-centre'><i
+                            class="fab fa-twitter"></i></a>
                 </li>
             </ul>
             <h5>Print</h5>

@@ -2,6 +2,7 @@
 
 // Variable declarations...
 const body = document.querySelector('body');
+const twitterClient = document.querySelector('main > .width-max > aside');
 const dropdownToggle = document.querySelector('.navbar-search');
 const navbarSearchTitle = document.querySelector('.navbar-search-title')
 const navbarSearchPara = document.querySelector('.navbar-search-para')
@@ -48,3 +49,11 @@ timesIconBox.addEventListener('click', function() {
     searchIconBox.classList.toggle('active');
     collapse.classList.toggle('show');
 });
+
+const mainHeight = document.body.clientHeight - window.innerHeight - 1275;
+console.log(twitterClient.clientHeight);
+console.log(mainHeight);
+
+twitterClient.style.maxHeight = `${mainHeight}px`;
+
+console.log(twitterClient.clientHeight);

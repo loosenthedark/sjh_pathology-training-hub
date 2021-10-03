@@ -21,7 +21,8 @@
                 <div class="collapse" id="collapse-footer-2">
                     <ul class="footer__links">
                         <li><a href="https://www.stjames.ie/patients/bloodtesting/">Blood Testing</a></li>
-                        <li><a href="https://www.stjames.ie/aboutus/gettingtothehospital/">Getting to the hospital</a></li>
+                        <li><a href="https://www.stjames.ie/aboutus/gettingtothehospital/">Getting to the hospital</a>
+                        </li>
                         <li><a href="https://www.stjames.ie/patients/parking/">Parking</a></li>
                         <li><a href="https://www.stjames.ie/patients/">Appointment information</a></li>
                     </ul>
@@ -35,7 +36,8 @@
                     <ul class="footer__links">
                         <li><a href="https://www.stjames.ie/patients/visiting/">Visiting</a></li>
                         <li><a href="https://www.stjames.ie/wards/">Wards</a></li>
-                        <li><a href="https://www.stjames.ie/patients/shopsfacilities/">Shops &amp;&nbsp;Facilites</a></li>
+                        <li><a href="https://www.stjames.ie/patients/shopsfacilities/">Shops &amp;&nbsp;Facilites</a>
+                        </li>
                         <li><a href="https://www.stjames.ie/services/">Departments</a></li>
                     </ul>
                 </div>
@@ -49,7 +51,8 @@
                         <li><a href="https://www.stjames.ie/research/">Research</a></li>
                         <li><a href="http://search.stjames.ie/Labmed/">LabMed User Guide</a></li>
                         <li><a href="https://www.stjames.ie/services/laboratorymedicinelabmed/">LabMed Services</a></li>
-                        <li><a href="https://www.stjames.ie/healthcareprofessionals/newslettersnews/">Newsletters</a></li>
+                        <li><a href="https://www.stjames.ie/healthcareprofessionals/newslettersnews/">Newsletters</a>
+                        </li>
                     </ul>
                 </div>
             </div>
@@ -69,13 +72,16 @@
                 <div class="container">
                     <ul class="nav nav-social">
                         <li class="list-item-social">
-                            <a href="https://www.linkedin.com/" target="_blank" class="flex-centre"><i class="fab fa-linkedin-in"></i></a>
+                            <a href="https://www.linkedin.com/" target="_blank" class="flex-centre"><i
+                                    class="fab fa-linkedin-in"></i></a>
                         </li>
                         <li class="list-item-social">
-                            <a href="https://www.facebook.com/" target="_blank" class="flex-centre"><i class="fab fa-facebook-f"></i></a>
+                            <a href="https://www.facebook.com/" target="_blank" class="flex-centre"><i
+                                    class="fab fa-facebook-f"></i></a>
                         </li>
                         <li class="list-item-social">
-                            <a href="https://twitter.com/" target="_blank" class="flex-centre"><i class="fab fa-twitter"></i></a>
+                            <a href="https://twitter.com/" target="_blank" class="flex-centre"><i
+                                    class="fab fa-twitter"></i></a>
                         </li>
                     </ul>
                 </div>
@@ -91,8 +97,10 @@
                     <li>©2021 St James's Hospital. All rights reserved.</li>
                     <li><a href="https://www.stjames.ie/contactus/" class="" target="">Contact us</a></li>
                     <li><a href="https://www.stjames.ie/aboutus/disclaimer/" class="" target="">Disclaimer</a></li>
-                    <li><a href="https://www.stjames.ie/aboutus/privacynotice/" class="" target="">Privacy notice</a></li>
-                    <li><a href="https://www.stjames.ie/aboutus/accessibility/" class="" target="">Accessibility</a></li>
+                    <li><a href="https://www.stjames.ie/aboutus/privacynotice/" class="" target="">Privacy notice</a>
+                    </li>
+                    <li><a href="https://www.stjames.ie/aboutus/accessibility/" class="" target="">Accessibility</a>
+                    </li>
                 </ul>
             </div>
         </div>
