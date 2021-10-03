@@ -102,8 +102,8 @@
         </div>
     </nav>
     <div class="banner"></div>
-    <h1>Pathology Training Hub</h1>
-    <div class="header-sub">
+    <h1 class="width-max">Pathology Training Hub</h1>
+    <div class="header-sub width-max">
         <ol class='nav nav-breadcrumbs'>
             <li class='breadcrumb'>
                 <a href="https://www.stjames.ie/">Home</a>
@@ -125,13 +125,13 @@
             <h5>Share</h5>
             <ul class='nav nav-social'>
                 <li class='list-item-social'>
-                    <a href="http://" target="_blank" class='flex-centre'><i class="fab fa-linkedin-in"></i></a>
+                    <a href="https://www.linkedin.com/" target="_blank" class='flex-centre'><i class="fab fa-linkedin-in"></i></a>
                 </li>
                 <li class='list-item-social'>
-                    <a href="http://" target="_blank" class='flex-centre'><i class="fab fa-facebook-f"></i></a>
+                    <a href="https://www.facebook.com/" target="_blank" class='flex-centre'><i class="fab fa-facebook-f"></i></a>
                 </li>
                 <li class='list-item-social'>
-                    <a href="http://" target="_blank" class='flex-centre'><i class="fab fa-twitter"></i></a>
+                    <a href="https://twitter.com/" target="_blank" class='flex-centre'><i class="fab fa-twitter"></i></a>
                 </li>
             </ul>
             <h5>Print</h5>
