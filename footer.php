@@ -105,4 +105,14 @@
             </div>
         </div>
     </div>
+    <div class="attribution">
+        <p>
+            <a href="https://www.ecowebhosting.co.uk/green-credentials" alt="Planting trees every month with Eco Web Hosting" target="_blank" rel="noopener"><img class="d-block mx-auto mt-1 mb-4" width="140" src="https://eco-cdn.co.uk/eco-badge-2.svg" alt="Planting trees every month with Eco Web Hosting"></a>
+        </p>
+        <p>Built with
+            <i class="fas fa-heart" aria-hidden="true"></i> and
+            <i class="fas fa-mug-hot" aria-hidden="true"></i> by
+            <a href="https://www.loosenthedark.tech" target="_blank" class="ltd">loosenthedark</a>
+        </p>
+    </div>
 </footer>
