@@ -50,7 +50,7 @@ timesIconBox.addEventListener('click', function() {
     collapse.classList.toggle('show');
 });
 
-const mainHeight = document.body.clientHeight - window.innerHeight - 170;
+const mainHeight = document.body.clientHeight - window.innerHeight - 400;
 console.log(mainHeight);
 
 twitterClient.style.maxHeight = `${mainHeight}px`;

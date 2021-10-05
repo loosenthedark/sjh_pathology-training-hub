@@ -1209,7 +1209,7 @@ Media Resources
 }
 
 .tabset-media article:nth-of-type(2) li a .text-wrapper h4 {
-    color: unset;
+    color: var(--clr-primary-blue-dark);
     margin-bottom: .625rem;
     font-weight: 800;
 }
