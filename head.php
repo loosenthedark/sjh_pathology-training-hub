@@ -3,7 +3,7 @@
 
 <head>
     <!-- Appcues script -->
-    <script src="//fast.appcues.com/99126.js"></script>
+    <!-- <script src="//fast.appcues.com/99126.js"></script> -->
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="apple-touch-icon" sizes="180x180" href="static/images/icons/favicon/apple-touch-icon.png">
